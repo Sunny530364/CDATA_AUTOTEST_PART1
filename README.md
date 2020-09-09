@@ -1,1 +1,2 @@
 # CDATA_AUTOTEST_PART1
+# 这部分代码是GPON_SFU对接华为MA5800_E/MA5800_G ,以及cdata自己的设备FD1616GS/FD1216S 第一次完整的代码
