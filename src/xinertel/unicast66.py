@@ -556,7 +556,7 @@ def unicast_test(port_location,down_stream_header,up_stream_header,num=1,datacla
         port2_stats = result_query.get_children('PortStats')[1]
         result_stats=[port1_stats,port2_stats]
 
-    print(result_stats, len(result_stats))
+    #print(result_stats, len(result_stats))
     release_port_cmd = ReleasePortCommand(LocationList=port_location)
     release_port_cmd.execute()
     chassis = DisconnectChassisCommand('HardwareChassis_1')
